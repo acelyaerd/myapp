@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Recipe List webpage!</title>
+  </head>
+  <h1> This is Recipe List Page </h1>
+          <body>
+          <h3>You can see the author's name, recipe's name and the instructions of all available recipes at our recipe bank here:</h3>
+          <ul>
+            <% availablerecipes.forEach(function(recipe){ %>
+            <li><p><%= recipe.name %> (added by <%= recipe.user%>)</p> <p> <%= recipe.instructions %></p></li>
+            <% }) %>
+ </ul>
+</body>
+<a href='./'>Home</a>
+
+<style>
+body {
+color: white;
+background-color: #238228;
+  }
+</style>
+
+</html>
