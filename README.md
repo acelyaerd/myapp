@@ -1,4 +1,5 @@
 The 'myapp' that I have submitted is what I have worked on to create a dynamic web application called "Recipe Bank" where users can register to login and add, delete, update, view and search recipes. They can only have access to these features if they are logged in, and loose access when they're logged out.
+
 My "Recipe Bank" dynamic web application includes the following features:
 
 - Register a user
