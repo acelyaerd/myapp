@@ -1,17 +1,17 @@
-The 'myapp' that I have submitted is what I have worked on to create a dynamic web application called
-"Recipe Bank" where users can register to login and add, delete, update, view and search recipes. They can only have access to these features if they are logged in, and loose access when they're logged out.
+The 'myapp' that I have submitted is what I have worked on to create a dynamic web application called "Recipe Bank" where users can register to login and add, delete, update, view and search recipes. They can only have access to these features if they are logged in, and loose access when they're logged out.
 My "Recipe Bank" dynamic web application includes the following features:
-/
-Register a user
-Login a user
-List all recipes with the name of the user who created it
-Add a recipe (only available to logged in users)
-Delete a recipe (only available to logged in users)
-Update a recipe (only available to logged in users)
-Search for a keyword in recipe bank and list all recipes including the search keyword Logout a user
-/
+
+- Register a user
+- Login a user
+- List all recipes with the name of the user who created it
+- Add a recipe (only available to logged in users)
+- Delete a recipe (only available to logged in users)
+- Update a recipe (only available to logged in users)
+- Search for a keyword in recipe bank and list all recipes including the search keyword Logout a user
+
 The back-end of the web application is Mongodb, where I have my own model, my own operationsand the
 ability to access those operations through the web and (to some extent) through an api.
+
 Detailed features of my app:
 
 1. It is a Node.js app :- yes
