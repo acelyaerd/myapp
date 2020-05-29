@@ -37,9 +37,12 @@ recipeupdated(lines 152-158); recipeedited(lines 169-177).
 17. There is a basic api i.e. recipes content can be accessed as json via http method, it is clear how to access the api (included in code comments in main.js) :-
 18. There are links on all pages to home page providing easy navigation for users :- codes are follows: views/addrecipe.html on line 18; views/deleterecipe.html on line 16; views/editrecipe.html on line 16; views/list.ejs on line 15; views/login.html on line 19; views/register.html on line 20; views/updaterecipe.html on line 20; views/weatherform.html on line 19.
 /
+
 I would also like to note that this dynamic web application automatically stores a user's id so the user
 does not need to enter their name on the addrecipe page.
+
 The following is the breakdown of all entities - my data model in detail (inclusing the name of the database, collection names, fields in collection):
+
 users
 {
 _id: ,
